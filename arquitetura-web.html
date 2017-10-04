@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arquitetura WEB</title>
+		<link rel="shortcut icon" href="img/icone.png">
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">       
+    </head>    
+    <body bgcolor="#f1f2f2">        
+        <header>   
+            <div style="height: inherit; display: inline-block; padding: 0; margin: 0; margin-left: 5%;">
+                <a href="index.html">
+                    <img id=homelogo src="img/home.png"/>      
+                </a>
+            </div>            
+        </header>
+        <section>
+		
+                    <div class="texto"  style=" display: inherit; margin: auto; margin-top: 2em; width: 90%">
+		<center>
+		 <strong style="text-align: center; display: block"> Arquitetura WEB </strong><p/>
+			   <p style="text-align:justify; display: block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As  aplicações  Web  (WebApps,  também  conhecidas  como  aplicações  baseadas  na  Web)
+			   se caracterizam por possuir um amplo conjunto de conceitos e terminologias associadas,
+			   além de possuírem características de aplicações hipermídia (Pressman, 2006).
+			   Esse tipo de sistema não exige que a sua execução seja realizada mediante sua prévia
+			   instalação local, assim como é feito com aplicações desktop. Muito pelo contrário, a execução
+			   da grande maioria de aplicações Web acontece somente com o uso de um navegador Web como, por
+			   exemplo, o Mozilla Firefox (Mozilla, 2007). Aplicações Web são sistemas que possuem um
+			   alto grau de interação (Kerer e Kirda, 2001) além de atender simultaneamente
+			   diversos usuários, distribuídos em locais distintos fisicamente (Hendrickson e Fowler,
+			   2002). Além disso, existe ainda a necessidade de disponibilização contínua e
+			   rápida de tais aplicações. Para garantir estas características e o desenvolvimento
+			   apropriado desse tipo de aplicação, uma subárea da Engenharia de Software vem ganhando 
+			   destaque, a Engenharia de Web (ou WebE - Web Engineering) (Pressman, 2006), sendo que uma de 
+			   suas principais atividades é o Projeto Arquitetural gerando como artefato de saída 
+			   uma arquitetura Web.<p/></center>
+			   
+			   <center><img src="arquitetura/arquitetura.jpg"></center><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			   
+		<strong style="text-align: center; display: block">  Protocolo HTTP </strong><p/>
+			   <p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protocolo de Transferência de Hipertexto, é um protocolo de comunicação (na camada
+			   de aplicação segundo o Modelo OSI) utilizado para sistemas de informação de hipermídia,
+			   distribuídos e colaborativos. Ele é a base para a comunicação de dados da World Wide Web.
+			   Hipertexto é o texto estruturado que utiliza ligações lógicas (hiperlinks) entre nós
+			   contendo texto. O HTTP é o protocolo para a troca ou transferência de hipertexto.
+			   Coordenado pela World Wide Web Consortium e a Internet Engineering Task Force, culminou 
+			   na publicação de uma série de Requests for Comments; mais notavelmente o RFC 2616, de junho 
+			   de 1999, que definiu o HTTP/1.1. Em Junho de 2014 foram publicados 6 RFC's para maior
+			   clareza do protocolo HTTP/1.1. Em Março de 2015, foi divulgado o lançamento do HTTP/2.
+			   A atualização deixará o navegador com um tempo de resposta melhor e mais seguro. Ele também
+			   melhorará a navegação em smartphones.
+			   Para acedermos a outro documento a partir de uma palavra presente no documento actual podemos 
+			   utilizar hiperligações (ou âncoras). Estes documentos se encontram no sítio com um endereço de 
+			   página da Internet – e para acessá-los deve-se digitar o respectivo endereço, denominado URI
+			   (Universal Resource Identifier ou Identificador Universal de Recurso), que não deve ser confundir
+			   com URL (Universal Resource Locator ou Localizador Universal de Recurso), um tipo de URI que
+			   pode ser directamente localizado.<p/>
+			   <p/>
+			   
+			   <center><img src="arquitetura/http.jpg"></center><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			   
+		<strong style="text-align: center; display: block">  URL </strong><p/>
+				<p style="text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Um URL se refere ao endereço de rede no qual se encontra algum recurso informático, 
+				como por exemplo um arquivo de computador ou um dispositivo periférico (impressora,
+				equipamento multifuncional, unidade de rede etc.). Essa rede pode ser a Internet,
+				uma rede corporativa (como uma intranet) etc.
+				Nas redes TCP/IP, um URL completo possui a seguinte estrutura:
+				 <strong> esquema://domínio:porta/caminho/recurso?query_string#fragmento </strong>
+
+				O esquema é o protocolo. Poderá ser HTTP, HTTPS, FTP etc.
+				O domínio é o endereço da máquina: designa o servidor que disponibiliza o documento ou
+				recurso solicitado. A porta é o ponto lógico no qual se pode executar a conexão com o 
+				servidor. O caminho especifica o local (geralmente num sistema de arquivos) onde se 
+				encontra o recurso, dentro do servidor. A query string é um conjunto de um ou mais 
+				pares "pergunta-resposta" ou "parâmetro-argumento" (como por exemplo nome=fulano, em
+				que nome pode ser, por exemplo, uma variável, e fulano é o valor (argumento) atribuído a nome).
+				É uma string enviada ao servidor para que seja possível filtrar ou mesmo criar o recurso.
+				O fragmento é uma parte ou posição específica dentro do recurso.
+				O esquema informa ao computador como conectar-se (que linguagem o computador deverá usar para
+				as comunicações), o domínio especifica onde conectar-se (a localização do outro computador) e 
+				os demais elementos do URL especificam o que está sendo solicitado.
+				Exemplo: <strong> http://www.w3.org/Addressing/URL/uri-spec.html </strong>
+				No exemplo acima, o protocolo é o HTTP, o servidor é designado por www.w3.org e o recurso (neste caso,
+				o arquivo uri-spec.html) encontra-se em Addressing/URL/. A porta, omitida, recai sobre o padrão do 
+				protocolo (no caso, a porta 80) e não há query string ou identificador de fragmento.
+			   
+			     <center><img src="arquitetura/url.png"></center>
+                    </div>
+		
+        </section>
+        <footer>
+            <span class="tematitulo" style="display:table-cell; vertical-align: middle">
+                Arquitetura Web (HTTP e URI)
+            </span>
+        </footer>
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><center><div><a class="toplink" href="#Top">Voltar ao início da página</a></div>
+            <div style="height: 6em"></div></center>
+          
+    </body>
+</html>

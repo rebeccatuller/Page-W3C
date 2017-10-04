@@ -1,0 +1,8 @@
+Semântica: "Relacionado ao significado de algo"
+
+Um dado que é semantico terá o mesmo significado independente do sistema ou da pessoa que está usando o termo.
+Significado único e objetivo. Comum. Não ambíguo.
+
+Semântica WEB NÃO é inteligencia artificial.
+
+Web Semântica é a integração de dados.

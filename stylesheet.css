@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Oxygen;                
+    src: url('OXYGEN/Oxygen-Light.ttf');   
+} 
+
+*{
+    font-family: 'Oxygen', sans-serif;
+    color: #204056;
+
+}
+html, body{    
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;    
+    padding: 0;
+    position: relative;
+}
+
+section{
+    width: 100%;
+    max-width: inherit;
+    height: auto;
+}
+
+.toplink{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.toplink:hover{
+    font-weight: bold;
+}
+
+section *{
+    max-width: inherit;
+}
+
+.titulo{
+    font-size: 3.8em;    
+    text-align: center;
+    display: block;
+}
+
+.subtitulo{
+    font-size: 1.5em;    
+    text-align: center;
+    display: block;
+}
+
+.texto{
+    font-size: 2em;
+}
+
+p{
+    text-align: center;    
+}
+
+.espaco{
+    height: 30em;
+}
+
+header{
+    border-bottom: 0.15em solid #ebebeb;
+    background-color: white;
+    height: 3.5em;   
+    display: block;
+}
+
+footer{
+    border-top: 0.125em solid white;
+    background-color: #e6e7e8;
+    height: 3.5em;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: fixed; 
+    display: table;
+}
+
+
+#senailogo{
+    height: 3.5em;
+    margin: auto;  
+    background-color: rgba (0,0,0,0);
+}
+
+#homelogo{
+    height: 3.5em;
+    margin: auto;  
+    background-color: rgba (0,0,0,0);
+    border-left: 2px solid #dbdbdb;
+    border-right: 2px solid #dbdbdb;
+}
+
+#homelogo:hover{
+    height: 3.5em;
+    margin: auto;  
+    background-color: #f5f5f5;
+}
+
+#logodiv{
+    display: flex;
+    width: 20em;
+    height: inherit;
+    margin-right: auto;    
+    margin-left: auto;    
+    border-left: 2px solid #dbdbdb;
+    border-right: 2px solid #dbdbdb;
+}
+
+#logodiv:hover{
+    background: #f5f5f5;
+}
+
+.temas {
+    text-align: center;
+    height: 21em;
+    width: 17.5em;
+    background: white;
+    display: inline-block;
+    margin: 0.5em;  
+}
+
+.temas:hover{    
+    background-color: #34b3a0;
+    color: white;          
+}
+
+.temas table{
+    text-align: inherit;    
+    height: 100%;
+    width: 100%;    
+}
+
+.tematitulo{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; 
+
+}
+
+.temas img{
+    width: 80%;
+}
+
+.temas img:hover{
+    border-radius: 50%;     
+}
+
+.temas table:hover{
+    text-align: inherit;    
+    height: 100%;
+    width: 100%;     
+}
+
+.temas *{
+    color: inherit;
+}
+
+.temas *:hover{
+    color: inherit;
+}
+
+.botoes, input[type="button"], input[type="submit"], input[type="reset"]{
+    background: #34b3a0;
+    color: white;
+}
+
+.botoes:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover{
+    background: #46c9bd;
+    color: white;
+}
+.nosub{
+    text-decoration: none;
+}

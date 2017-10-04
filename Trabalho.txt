@@ -1,0 +1,12 @@
+TRABALHO WEB
+
+Atividade de pesquisa sobre:
+
+• Padrão W3C
+• Web Semântica
+• Arquitetura Web (HTTP e URI)
+• Usabilidade na Web
+
+Criar um projeto web explicando esses termos.
+Entregar parte escrita na norma ABNT.
+Apresentar o trabalho dia 07/10
